@@ -1,0 +1,163 @@
+/* Will be conditionally styling much of this like:
+
+className={mode === "light" then x else y}
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* TODO: not sure exactly how I will be changing this, the background-color */
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    /* background-color: black; */
+}
+
+.container {
+    height: 100%;
+}
+
+main {
+    height: 90vh;
+    padding: 57px 27px;
+}
+
+.main_dark {
+    background-color: #141517;
+}
+
+#main_title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main_react_facts_ul {
+    margin-top: 46px;
+}
+
+.main_react_facts_ul > li {
+    line-height: 19px;
+    /* specifies padding just on the top and bottom */
+    padding-block: 10px;
+    max-width: 400px;
+}
+
+/* ::marker is a ~ pseudo-element ~ */
+/* And it selects bullets on list items */
+.main_react_facts_ul > li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 30px 25px;
+    height: 10vh;
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+/* added these two styles */
+.nav_light {
+    box-shadow: #b4b4b4;
+}
+
+.nav_dark {
+    background-color: #21222A;
+}
+
+.nav_logo_text, .nav_app_title {
+    margin: 0;
+}
+
+.nav_logo_text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-size: 22px;
+}
+
+.nav_app_title {
+    font-weight: 600;
+}
+
+/* added these two styles */
+.main_title_light, .nav_app_title_light, .main_react_facts_ul_light {
+    color: #141517;
+}
+
+.main_title_dark, .nav_app_title_dark, .main_react_facts_ul_dark {
+    color: #DEEBF8;
+}
+
+.nav_app_title_light .nav_toggle_dark_btn {
+    font-weight: 300;
+}
+
+.nav_app_title_dark .nav_toggle_light_btn {
+    font-weight: 300;
+}
+
+/* CSS for the slider */
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+    margin-inline: 10px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    /* for a rounded slider */
+    border-radius: 17px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    /* for a rounded slider */
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    background-color: #643d71;
+}
+
+#root {
+    width: 67%;
+    margin: auto;
+}
+
+main {
+    padding: 2.25rem;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header--image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;   
+}
+
+.header--project {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.meme--form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 1rem;
+}
+
+.meme--form input {
+    display: inline;
+    font-family: "Karla", sans-serif;
+    text-indent: 5px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+}
+
+.meme--form--button {
+    font-family: "Karla", sans-serif;
+    grid-column: 1 / -1;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);    
+}
+
+.meme--image {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.meme {
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    font-family: "Karla", sans-serif;
+    font-size: 3em;
+    /* This creates the meme text effect */
+    font-weight: 800;
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: white;
+}
+
+.top {
+    top: 25px;
+    left: 100px;
+}
+
+.bottom {
+    bottom: 25px;
+    left: 100px;
+}

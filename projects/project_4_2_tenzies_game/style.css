@@ -1,0 +1,74 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #2B283A;
+    padding: 20px;
+    font-family: "Karla", "sans-serif";
+}
+
+main {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-block: 10px;
+} 
+
+.die--container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+
+.roll--button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    min-width: 100px;
+    padding-inline: 20px;
+    background-color: #5035FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.roll--button--text {
+    color: white;
+    font-size: 20px;
+    font-family: "Karla", "sans-serif";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.die--face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: "Karla", "sans-serif";
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.die--held {
+    background-color: #59E391;
+}

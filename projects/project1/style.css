@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: black;
+}
+
+main {
+    /* height: auto; */
+    padding: 57px 27px;
+}
+
+#main_title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main_react_facts_ul {
+    margin-top: 46px;
+}
+
+.main_react_facts_ul > li {
+    line-height: 19px;
+    /* specifies padding just on the top and bottom */
+    padding-block: 10px;
+    max-width: 400px;
+}
+
+/* ::marker is a ~ pseudo-element ~ */
+/* And it selects bullets on list items */
+.main_react_facts_ul > li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.nav_logo_text, .nav_app_title {
+    margin: 0;
+}
+
+.nav_logo_text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-size: 22px;
+}
+
+.nav_app_title {
+    font-weight: 600;
+}
+
+.main_title, .nav_app_title, .main_react_facts_ul {
+    color: #DEEBF8;
+
+}
