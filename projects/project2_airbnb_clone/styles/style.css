@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* TODO: Put font here from google fonts */
+    margin: 0;
+    background-color: #ffe6c7;
+    color: rgb(44, 44, 44);
+    font-family: Poppins, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gray {
+    color: gray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#app_container {
+    min-height: 600px;
+    width: 600px;
+    margin: auto;
+    margin-block: 50px;
+    /* background-color: #383a42; */
+    /* border-radius: 10px; */
+}
+
+nav {
+    /* width: 600px; */
+    background-color: #fff9f3;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+section {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+#nav_airbnb_logo {
+    height: 30px;
+    margin: 15px 30px;
+}
+
+#hero_container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 9;
+    /* padding: 30px; */
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+#hero_photo_grid {
+    width: 200px;
+    align-self: center;
+}
+
+#hero_title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+#hero_desc {
+    margin-top: 0px;
+}
+
+.cards_list {
+    flex: 0 0 auto; /* not sure how this works, this is new */
+    display: flex;
+    flex: column;
+    overflow-x: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cards_list::-webkit-scrollbar {
+    display: none;
+}
+
+.card_container {
+    width: 150px;
+    margin: 0px 10px;
+    /* flex: 0 0 auto;
+    display: flex;
+    flex: column; */
+    font-size: 12px;
+    background-color: white;
+}
+
+.card_img {
+    width: 150px;
+    border-radius: 7px;
+}
+
+.card_desc > p {
+    margin-block: 5px;
+}
+
+.card_stats {
+    display: flex;
+    align-items: center;
+}
+
+.card_stats > span {
+    margin-inline-start: 5px;
+}
+
+.card_rating_star {
+    width: 10px;
+}
+
+/*
+button {
+    display: inline;
+    margin-inline: 20px;    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+	color: #111;
+    
+    padding: 10px 30px;
+}
+
+button > img {
+    width: 12px;
+    margin-inline: 0px 7px;
+}
+
+#info_profile_photo {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info_btn_container {
+    margin-block: 20px;
+}
+
+#info_email_btn:hover {
+    background: rgb(208, 216, 223);
+}
+
+#info_linkedin_btn {
+    color: aliceblue;
+    background-color: #365eff;
+}
+
+#info_linkedin_btn:hover {
+    background: #2e52e2;
+}
+
+.info_centered {
+    text-align: center;
+}
+
+#about_container, #interests_container, #footer_container {
+    padding: 0px 27px;
+}
+
+.about_desc,
+.interests_desc,
+#info_job_title, #info_website {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.about_title, .interests_title, #info_name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#footer_container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding-block: 15px;
+    border-radius: 0px 0px 10px 10px;
+
+    background-color: #2f3037;
+}
+
+#footer_container a img {
+    width: 30px;
+    margin-inline: 10px;
+} */
