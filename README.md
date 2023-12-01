@@ -1,6 +1,6 @@
-# scrimba_react_course
+# Scrimba Course on the React Library
 A selection of 7 projects, developed as part of a React course provided by Scrimba. Emphasis not just on React principles but reinforcing CSS techniques.
-
+Open up the project folder and view the source code for these projects. Here is a brief description of each: 
 ## Project 1 - React Facts
 Static page listing out some interesting React tidbits.
 ## Project 2 - Airbnb Clone
