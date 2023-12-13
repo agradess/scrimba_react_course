@@ -50,7 +50,17 @@ main {
     cursor: pointer;
 }
 
-.answer-selected {
-    border: none;
-    background-color: rgb(139, 139, 184);
+.selected-answer {
+    border: solid 3px rgb(155, 155, 185);
+    background-color: rgb(155, 155, 185);
+}
+
+.correct-answer {
+    border: solid 3px rgb(24, 147, 73);
+    background-color: rgb(24, 147, 73);
+}
+
+.selected-answer.wrong-answer {
+    border: solid 3px rgb(222, 60, 60);
+    background-color: rgb(222, 60, 60);
 }
