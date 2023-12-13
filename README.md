@@ -15,4 +15,4 @@ On any given roll, the player can remove or keep dice to save, then roll again w
 ## Solo Project 1 - Digital Business Card
 Static page that provides a brief summary of my experience, and links to my Github and LinkedIn.
 ## Solo Project 4 - Quizzical
-\[In progress\] A trivia game that is connected to the Open Trivia Database. Provides a variety of questions from different categories and different difficulty levels.
+A trivia game that is connected to the Open Trivia Database API. Provides a variety of questions from different categories and different difficulty levels.
